@@ -1,0 +1,16 @@
+# CODEOWNERS
+# These owners are automatically requested for review on any PR that touches
+# the matching paths. Syntax: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default — everything not matched by a more specific rule
+*                               @codebasics-community/nanoevals-maintainers
+
+# Core evaluator logic
+nanoevals/                      @codebasics-community/nanoevals-maintainers
+
+# Public prompts — reviewed carefully to stay general-purpose
+nanoevals/prompts/              @codebasics-community/nanoevals-maintainers
+
+# CI / tooling
+.github/                        @codebasics-community/nanoevals-maintainers
+pyproject.toml                  @codebasics-community/nanoevals-maintainers

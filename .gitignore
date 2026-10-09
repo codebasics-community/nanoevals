@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.jbevals
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+.python-version
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.key
+
+# Test data / logs
+*.log
+
+# Architecture docs (Private)
+ARCHITECTURE.md
